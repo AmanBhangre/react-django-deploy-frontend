@@ -12,6 +12,7 @@ function App() {
   }, [])
   return (
     <div className="App">
+      <h1>React Django deploy on heroku</h1>
       {
         blogs.map(blog => (
           <div className="blog" key={blog.id}>
